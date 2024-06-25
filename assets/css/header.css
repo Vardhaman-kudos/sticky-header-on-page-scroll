@@ -1,0 +1,42 @@
+.site-header {
+    display: block;
+    width: 100%;
+    background-color: #f5f5f5;
+    position: relative;
+    width: 100%;
+    transition: 0.3s all;
+}
+
+.site-header.header-sticky {
+    position: fixed;
+    top: 0;
+}
+
+.site-header .header-row {
+    display: flex;
+}
+
+.site-header .site-logo {
+    margin: 0 20px 0 0;
+    padding: 7px 0;
+}
+
+.site-header .site-logo a {
+    display: inline-block;
+}
+
+.site-header .site-logo a img {
+    display: block;
+}
+
+.site-header .site-nav {
+    margin-left: auto;
+}
+
+
+@media (max-width: 991px) {
+    .site-header .site-nav {
+        display: flex;
+        align-items: center;
+    }
+}
